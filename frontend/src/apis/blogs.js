@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/blog';
+const API_URL = 'https://blog-application-fb3v.onrender.com/blog';
 
 const token = sessionStorage.getItem('token');
 

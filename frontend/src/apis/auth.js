@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const API_URL = 'http://localhost:5000/auth';
+const API_URL = 'https://blog-application-fb3v.onrender.com/auth';
 
 export const register = async (userData) => {
     try {
